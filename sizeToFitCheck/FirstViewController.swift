@@ -10,9 +10,12 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet weak var label1: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        label1.text = "qwertyuiopasdfghjklzxcvbnm qwertyuiopasdfghjklzxcvbnm"
+        label1.sizeToFit()
     }
 
     override func didReceiveMemoryWarning() {
